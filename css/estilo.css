@@ -1,1 +1,49 @@
 /* Escreva aqui as suas folhas de estilo */
+
+body{
+    font-family: "Roboto", tahoma, arial, sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: normal;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+header nav h1{
+    margin: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: white;
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 10px;
+}
+
+header .banner img{
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+
+
